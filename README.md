@@ -1,5 +1,5 @@
 # DSA 210 Project Proposal:
-# The Effect of Animated Thumbnails on Video Game Mods
+# The Effect of Animated Thumbnails on Video Game Mods Metrics
 
 I am a video game mod developer and I am interested in how mods perform depending on the format of their thumbnails. Over the past few years I noticed more and more mods are coming out with GIF thumbnails compared to still images, and wondering how effective this difference is in the perception of the end users, the players.
 
