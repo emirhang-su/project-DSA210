@@ -1,20 +1,14 @@
-# DSA 210 Project Proposal:
+# DSA 210 Project Milestone 1:
 # The Effect of Animated Thumbnails on Video Game Mods Metrics
 
-I am a video game mod developer and I am interested in how mods perform depending on the format of their thumbnails. Over the past few years I noticed more and more mods are coming out with animated GIF thumbnails compared to still images, and wondering how effective this difference is in the perception of the end users, the players.
+My goal is to uncover the effectiveness of animated thumbnails on various mod metrics within the Steam Workshop platform. Data collection and auditing is complete at this time.
 
-The analysis will be conducted within the gaming giant **Steam**, on its **Steam Workshop** platform. There are over 3000 games on Steam that have the Workshop feature but I will be focusing on a game called *Garry's Mod*, released over two decades ago. I chose this game since it heavily depends on community-made mods (or more commonly referred to as Addons) on its Workshop, which is very active with nearly two million mods. I have been contributing to this Workshop for about 5 years now approaching 150 mod submissions.
+## Data Collection
+Data was collected through the Steam Workshop links provided in the .txt files in the Datasets folder. Values were manually put into spreadsheets and converted into .csv files. Data from both personal and public mods were collected. For personal mods, there are 17 animated and 17 static thumbnailed addons selected and recorded. For public mods, ten mods from ten different addon types were selected and recorded, where five are animated and five are static thumbnails, resulting in data collected from exactly 100 addons, released in 2025. More detailed information regarding the criteria for addon sample selection can be found at the .txt files in the Datasets folder.
 
-Video game mod performance data consists of both publicly shown numbers and private statistics shown only to the mod authors. Public numbers include **Unique Visitors, Current Subscribers, Current Favorites, Number of Comments, and total ratings**. Private numbers consist of **Total Unique Subscribers, Total Unique Favorites, Positive and Negative Ratings, Cumulative Subscribers and Views and Ratings over time charts**. Most of the data can be collected by simply visiting the site and copying the displayed value but obtaining data from charts will be done via web scraping.
+The webpages for publicly available mods can be found at Datasets/Web Sources. Private personal mod statistics web pages will not be shared publicly due to security concerns, but will be provided if requested.
 
-| Public Numbers | Private Numbers |
-| ---------------- | --------------- |
-| Current Subscribers | Total Unique Subscribers |
-| Current Favorites | Total Unique Favorites |
-| Total Ratings | Positive Ratings |
-| Unique Visitors | Negative Ratings |
-| # of Comments | Cumulative Subscribers |
-| # of Collections | Views and ratings over time | 
+## Exploratory Data Analysis
+Preliminary analysis was conducted to determine that the Garry's Mod Workshop is active and a good candidate for a study. The python notebook for this quick analysis can be found under Py Notebooks. Essentially the "front pages" for three games with reasonable Workshop activity including Garry's Mod were compared to demonstrate the popularity of the Workshop platforms for those respective games.
 
-
-Since private mod stats cannot be accessed publicly I will be conducting two different analyses on publicly and privately available data. Publicly available data will be taken from a chosen set of currently undecided amount of mods while privately available data will be collected from my own mods.
+![WorkshopEDA](https://imgur.com/XKaqTCn.png)
