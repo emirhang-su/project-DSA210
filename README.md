@@ -12,3 +12,7 @@ The webpages for publicly available mods can be found at Datasets/Web Sources. P
 Preliminary analysis was conducted to determine that the Garry's Mod Workshop is active and a good candidate for a study. The python notebook for this quick analysis can be found under Py Notebooks. Essentially the "front pages" for three games with reasonable Workshop activity including Garry's Mod were compared to demonstrate the popularity of the Workshop platforms for those respective games.
 
 ![WorkshopEDA](https://imgur.com/XKaqTCn.png)
+
+## Hypothesis Testing
+
+Hypothesis testing was conducted on both public and personal datasets. The public dataset unveiled no result of significance however the personal dataset showed some significant results. More information and randomization plot charts are available at Py Notebooks and Hypothesis Testing folders.
